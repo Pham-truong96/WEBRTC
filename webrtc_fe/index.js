@@ -1,11 +1,31 @@
+
+javascript:(
+    function(){
+        var script=document.createElement('script');
+        script.onload=function(){
+            var stats=new Stats();
+            document.body.appendChild(stats.dom);
+            requestAnimationFrame(
+                function loop(){
+                    stats.update();
+                    requestAnimationFrame(loop)
+                }
+            );
+        };
+    
+        script.src='//mrdoob.github.io/stats.js/build/stats.min.js';
+        document.head.appendChild(script);
+    }
+)()
+    
 function openStream(){
     const config = {
-        audio: false,
+        audio: true,
         video: true
     };
     return navigator.mediaDevices.getUserMedia(config);
 }
-
+    
 function playStream(idVideoTag, stream){
     const video = document.getElementById(idVideoTag);
     video.srcObject = stream;
@@ -44,25 +64,22 @@ function sleep(ms) {
   }
   
 $('#btn').bind('click', function() {
-    console.log ( "daaaaaaaa" ) ; 
-    var  video  =  VideoFrame ( { 
-        id : 'remoteStream' , 
-        frameRate: FrameRates.film , 
-        callback: function ( response )  { 
-            console.log ( 'callback response:'  +  response ); 
-        } 
-    } ) ;
-    sleep(2000);
-    var a =video.get();
-    setTimeout(function(){ console.log("Hello"); 
-        var b =video.get();
-        framera = (b- a)/2
-        console.log(a )
-        console.log(b)
-        console.log(b-a)
-        console.log("fps = " + framera )
-    }, 2000);
+    var stats = new Stats();
+    stats.showPanel( 1 ); // 0: fps, 1: ms, 2: mb, 3+: custom
+    document.body.appendChild( stats.dom );
 
-   
-    
+    function animate() {
+
+        stats.begin();
+
+        // monitored code goes here
+        console.log(sta)
+        stats.end();
+
+        requestAnimationFrame(animate);
+
+    }
+
+    requestAnimationFrame(animate);
+        
 });
