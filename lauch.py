@@ -29,13 +29,17 @@ opt.add_experimental_option('prefs', {'download.default_directory' : LOG_PATH}) 
 
 
 driver = webdriver.Chrome(
-    chrome_options = opt,
+    options = opt,
     executable_path = DRIVER_PATH
-) 
+)
+driver.set_window_size(1280, 1024)
+
 
 class Lauch:
     def __init__(self, ):
         print("start")
+        print("open chrome")
+        
 
     def join_jitsi_room(self, ):
         # Optional argument, if not specified will search path.
@@ -66,18 +70,18 @@ class Lauch:
         driver.quit()
 
 
-class TCNetem:
-    def __init__(self,bw):
-        os.system('echo \"1\" | sudo -S pkill java')
-        os.system('echo \"1\" | sudo pkill chromium')
-        os.system('echo \"1\" | sudo pkill chromedriver')
-        self.set_bandwidth_limit(bandwidth=bw)
+# class TCNetem:
+#     def __init__(self,bw):
+#         os.system('echo \"1\" | sudo -S pkill java')
+#         os.system('echo \"1\" | sudo pkill chromium')
+#         os.system('echo \"1\" | sudo pkill chromedriver')
+#         self.set_bandwidth_limit(bandwidth=bw)
     
-    def set_bandwidth_limit(self,):
-        pass
+#     def set_bandwidth_limit(self,):
+#         pass
 
-    def reset(self,):
-        os.system('sudo tc qdisc del dev eth0 root')
+#     def reset(self,):
+#         os.system('sudo tc qdisc del dev eth0 root')
 lauch = Lauch()
 lauch.join_jitsi_room()
 #set limit
