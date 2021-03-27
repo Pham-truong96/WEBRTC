@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 
 from contants import *
 
-LOG_PATH = LOG_PATH +"\\"+ sys.argv[1]
+LOG_PATH = LOG_PATH +"/"+ sys.argv[1]
 USERNAME = sys.argv[2]
 if not os.path.exists(LOG_PATH):
     os.makedirs(LOG_PATH)
@@ -49,7 +49,7 @@ class Lauch:
         search_box.send_keys(USERNAME)
         time.sleep(5)
         search_box.send_keys(Keys.ENTER)
-        time.sleep(15)
+        time.sleep(30)
         print("join room")
 
     def save_log(self,):
