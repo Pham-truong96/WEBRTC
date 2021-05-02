@@ -12,14 +12,14 @@ ips = [
 ]
 
 # Measurement bandwidths
-bandwidths = [0.25, 0.5, 1, 2, 3, 4, 5, 15, 30, 50]
+bandwidths = [0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 1, 2, 3, 4, 5, 15, 30, 50]
 # bandwidths = [0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 1]
 
 # Iterations
-iterations = 5
+iterations = 10
 
 # Duration is the actual measurement time. The actual measurement takes around 25 seconds longer (setup + waiting time)
-duration = 120
+duration = 100
 
 # 
 switchBw = False
@@ -132,7 +132,7 @@ def launch():
 
                 # Launch measurement
                 print("python3 /home/client/WEBRTC/lauch.py")
-                client.exec_command('python3 /home/client/WEBRTC/lauch.py')
+                client.exec_command('python3 /home/client/WEBRTC/lauch.py {} {}'.format(bw, i_current_iteration))
 
             # Sleep if selected
             print("Measurement launched, sleeping")
@@ -149,7 +149,7 @@ def launch():
             print("Organizing data")
 
             dirname = bw
-            collect_data(dirname, setBwTimestamp)
+            # collect_data(dirname, setBwTimestamp)
 
 def reset():
     for ip in ips:

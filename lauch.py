@@ -7,9 +7,15 @@ from selenium.webdriver.support.ui import Select
 from contants import *
 from internet_mock import *
 
+
+bw = sys.argv[1]
+i = sys.argv[2]
+
+LOG_SAVE_PATH = "/home/webrtc/apprtc-logs/{}/{}".format(bw, i)
+
 class ChromeSetUp:
     def __init__(self, bandwidth, client):
-        self.LOG_PATH = "/home/webrtc/apprtc-logs/"
+        self.LOG_PATH = LOG_SAVE_PATH
         self.USERNAME = client
         if not os.path.exists(self.LOG_PATH):
             os.makedirs(self.LOG_PATH)
