@@ -2,13 +2,14 @@ import time, os, sys
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import Select
 
 from contants import *
 from internet_mock import *
 
 class ChromeSetUp:
     def __init__(self, bandwidth, client):
-        self.LOG_PATH = LOG_PATH +"/"+ bandwidth
+        self.LOG_PATH = LOG_PATH +"\\"+ bandwidth
         self.USERNAME = client
         if not os.path.exists(self.LOG_PATH):
             os.makedirs(self.LOG_PATH)
@@ -17,7 +18,7 @@ class ChromeSetUp:
         opt.add_argument("--disable-infobars")
         opt.add_argument("start-maximized")
         opt.add_argument("--disable-extensions")
-        opt.add_argument('--headless')
+        # opt.add_argument('--headless')
         opt.add_argument('--disable-gpu')
         opt.add_argument("--allow-file-access-from-files") #allows getUserMedia() to be called from file:// URLs.
         opt.add_argument("disable-translate") #disables Translate into .. Popup
@@ -50,10 +51,23 @@ class Lauch:
         self.driver = driver
         print("start")
         print("open chrome")
-        
+
+    def dumps_log(self,):
+        self.driver.get("chrome://webrtc-internals/")
+        self.driver.find_elements_by_tag_name('summary')[0].click()
+        time.sleep(2)
+        select = Select(self.driver.find_element_by_id('statsSelectElement'))
+        select.select_by_value('Legacy Non-Standard (callback-based) getStats() API')
+
 
     def join_jitsi_room(self, username):
         # Optional argument, if not specified will search path.
+        body = self.driver.find_element_by_tag_name("body")
+        time.sleep(1)
+        # body.send_keys(Keys.CONTROL + 't')
+        self.driver.execute_script("window.open('');")
+        time.sleep(1)
+        self.driver.switch_to.window(self.driver.window_handles[-1])
         self.driver.get(ROOM_URL)
         time.sleep(5) # Let the user actually see something!
         search_box = self.driver.find_element_by_class_name('field')
@@ -62,18 +76,15 @@ class Lauch:
         search_box.send_keys(Keys.ENTER)
         time.sleep(15)
         print("join room")
-
+    
     def save_log(self,):
-        # driver.send_keys(Keys.CONTROL + 't')
-        self.driver.execute_script("window.open('https://www.google.com');")
-
-        time.sleep(5)
-        self.driver.switch_to.window(self.driver.window_handles[-1])
-        self.driver.get("chrome://webrtc-internals/")
-        time.sleep(5)
-        self.driver.find_elements_by_tag_name('summary')[0].click()
-        time.sleep(2*60)
+        # body = self.driver.find_element_by_tag_name("body")
+        # body.send_keys(Keys.CONTROL + '\t')
+        self.driver.switch_to.window(self.driver.window_handles[0])
+        
+        time.sleep(90)
         self.driver.find_elements_by_tag_name('button')[0].click()
+        time.sleep(10)
         print("save log")
 
     def __del__(self,):
@@ -81,16 +92,17 @@ class Lauch:
         
 def main():
     net_moc = TCNetem()
-    for bandwidth in bandwidths:
-        net_moc.set_bandwidth_limit(bandwidth)
-        chrome = ChromeSetUp(bandwidth, "client1").get_browser()
-        lauch = Lauch(chrome)
-        lauch.join_jitsi_room(username="client1")
-        time.sleep(30)
-        lauch.save_log()
-        time.sleep(5)
-        chrome.quit()
-        time.sleep(5)
-        net_moc.reset()
+    chrome = ChromeSetUp("eooe", "client1").get_browser()
+    lauch = Lauch(chrome)
+    lauch.dumps_log()
+    time.sleep(1)
+    lauch.join_jitsi_room(username="client1")
+    time.sleep(20)
+    lauch.save_log()
+    time.sleep(5)
+    chrome.quit()
+    time.sleep(5)
+    net_moc.reset()
 if __name__  == "__main__":
+    print("start")
     main()

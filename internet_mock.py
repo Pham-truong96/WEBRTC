@@ -464,7 +464,36 @@ bandwidths = [
     '51309696bps',
     '38892384bps'
 ]
+bandwidths_low = [
+    '100000bps',
+    '150000bps',
+    '205000bps',
+    '250000bps',
+    '300000bps',
+    '350000bps',
+    '400000bps',
+    '450000bps',
+    '500000bps',
+    '550000bps',
+    '600000bps',
+    '650000bps',
+    '705000bps',
+    '750000bps',
+    '800000bps',
+    '850000bps',
+    '900000bps',
+    '950000bps',
+    '1000000bps',
+]
 
+LOSS = [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+]
 class TCNetem:
     def __init__(self,):
         pass
@@ -476,12 +505,14 @@ class TCNetem:
     
     def set_bandwidth_limit(self, bandwidth):
         print("set bw")
-        os.system('sudo tc qdisc replace dev ens4 root  netem rate {}'.format(bandwidth))
+        os.system('sudo tc qdisc replace dev ens4 root netem rate {}'.format(bandwidth))
         os.system('sudo tc qdisc replace dev lo root netem rate {}'.format(bandwidth))
 
-    def loss_package(self,):
-        os.system('sudo tc qdisc add dev ens4 root netem rate 8bps loss 100%')
-        os.system('sudo tc qdisc add dev lo root netem rate 8bps loss 100%')
+    def loss_package(self, loss):
+        print("loss:" + str(loss) + "%") 
+        os.system('sudo tc qdisc add dev ens4 root netem loss {}%'.format(loss))
+        os.system('sudo tc qdisc add dev lo root netem loss {}%'.format(loss))
+        print("set limmit complete!")
 
     def reset(self,):
         os.system('echo \"1\" | sudo -S tc qdisc del dev ens4 root')
