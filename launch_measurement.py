@@ -131,7 +131,7 @@ def launch():
                 setBwTimestamp = setBw(ip, bw)
 
                 # Launch measurement
-                client.exec_command('python3 /home/webrtc/webrtc-deployment/lach.py')
+                client.exec_command('python3 /home/client/WEBRTC/lach.py')
 
             # Sleep if selected
             print("Measurement launched, sleeping")
