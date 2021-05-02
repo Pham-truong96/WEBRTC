@@ -38,9 +38,9 @@ def collect_data(bw, setBwTime):
         if not os.path.exists("{0}/webrtc-logs/{1}/{2}".format(HOME_DIR, bw, ip)):
             os.makedirs("{0}/webrtc-logs/{1}/{2}".format(HOME_DIR, bw, ip))
 
-        os.system("sshpass -p 1 scp -r -o StrictHostKeyChecking=no {0}:/home/webrtc/apprtc-logs/* {1}/webrtc-logs/{2}/{0}/".format(ip, HOME_DIR, bw))
+        os.system("sshpass -p 1 scp -r -o StrictHostKeyChecking=no client@{0}:/home/webrtc/apprtc-logs/* {1}/webrtc-logs/{2}/{0}/".format(ip, HOME_DIR, bw))
 
-        os.system("sshpass -p 1 ssh -o StrictHostKeyChecking=no {0} 'rm -r /home/webrtc/apprtc-logs/*'".format(ip))
+        os.system("sshpass -p 1 ssh -o StrictHostKeyChecking=no client@{0} 'rm -r /home/webrtc/apprtc-logs/*'".format(ip))
 
         for folder in os.listdir("{0}/webrtc-logs/{1}/{2}".format(HOME_DIR, bw, ip)):
             if not os.path.isdir("{0}/webrtc-logs/{1}/{2}/{3}".format(HOME_DIR, bw, ip, folder)):
@@ -122,6 +122,7 @@ def launch():
 
             #Launch
             for ip in ips:
+                print("run script")
                 client = paramiko.SSHClient()
                 client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
                 client.connect(ip, username='client', password='1', look_for_keys=False)
