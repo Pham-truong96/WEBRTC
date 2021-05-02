@@ -74,7 +74,7 @@ class Lauch:
         search_box.send_keys(username)
         time.sleep(5)
         search_box.send_keys(Keys.ENTER)
-        time.sleep(15)
+        time.sleep(5)
         print("join room")
     
     def save_log(self,):
@@ -97,7 +97,7 @@ def main():
     lauch.dumps_log()
     time.sleep(1)
     lauch.join_jitsi_room(username="client1")
-    time.sleep(90)
+    time.sleep(2)
     lauch.save_log()
     chrome.quit()
     net_moc.reset()

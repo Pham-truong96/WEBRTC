@@ -6,9 +6,9 @@ HOME_DIR = "/home/control"
 # Client IPs
 ips = [
     #"YOUR_IP_HERE"
-    "34.70.165.150",
-    "35.238.104.72",
-    "34.67.229.81"
+    "10.128.0.2",
+    "10.128.0.3",
+    "10.128.0.4"
 ]
 
 # Measurement bandwidths
