@@ -9,7 +9,7 @@ from internet_mock import *
 
 class ChromeSetUp:
     def __init__(self, bandwidth, client):
-        self.LOG_PATH = LOG_PATH +"\\"+ bandwidth
+        self.LOG_PATH = "/home/webrtc/apprtc-logs/"
         self.USERNAME = client
         if not os.path.exists(self.LOG_PATH):
             os.makedirs(self.LOG_PATH)
@@ -18,7 +18,7 @@ class ChromeSetUp:
         opt.add_argument("--disable-infobars")
         opt.add_argument("start-maximized")
         opt.add_argument("--disable-extensions")
-        # opt.add_argument('--headless')
+        opt.add_argument('--headless') # not open windows
         opt.add_argument('--disable-gpu')
         opt.add_argument("--allow-file-access-from-files") #allows getUserMedia() to be called from file:// URLs.
         opt.add_argument("disable-translate") #disables Translate into .. Popup
@@ -97,11 +97,9 @@ def main():
     lauch.dumps_log()
     time.sleep(1)
     lauch.join_jitsi_room(username="client1")
-    time.sleep(20)
+    time.sleep(90)
     lauch.save_log()
-    time.sleep(5)
     chrome.quit()
-    time.sleep(5)
     net_moc.reset()
 if __name__  == "__main__":
     print("start")
