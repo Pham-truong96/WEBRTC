@@ -137,9 +137,9 @@ def launch():
             time.sleep(duration + 90) # add some extra time to ensure complete stop of measurement at client. DONT USE LESS!
 
             # Reset
-            print("Resetting clients")
-            for ip in ips:
-                resetBw(ip)
+            # print("Resetting clients")
+            # for ip in ips:
+            #     resetBw(ip)
 
             print("Iteration {0} complete".format(x))
 
@@ -157,13 +157,13 @@ def reset():
         client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         client.connect(ip, username='client', password='1', look_for_keys=False)
 
-        client.exec_command('echo 1 | sudo -S pkill java')
-        client.exec_command('echo 1 | sudo -S pkill chromium')
-        client.exec_command('echo 1 | sudo -S pkill chromedriver')
+        # client.exec_command('echo 1 | sudo -S pkill java')
+        # client.exec_command('echo 1 | sudo -S pkill chromium')
+        # client.exec_command('echo 1 | sudo -S pkill chromedriver')
 
         client.exec_command('echo 1 | sudo -S rm -r /home/webrtc/apprtc-logs/*')
-        client.exec_command('echo 1 | sudo -S rm -r /home/webrtc/tcpdump')
-        client.exec_command('echo 1 | sudo -S tc qdisc del dev eth0 root')
+        # client.exec_command('echo 1 | sudo -S rm -r /home/webrtc/tcpdump')
+        # client.exec_command('echo 1 | sudo -S tc qdisc del dev eth0 root')
 
         print('Resetting ip {0} done'.format(ip))
 
