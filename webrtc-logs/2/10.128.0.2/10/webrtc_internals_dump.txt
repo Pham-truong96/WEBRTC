@@ -1,0 +1,2001 @@
+{
+ "getUserMedia": [
+  {
+   "audio": "{advanced: [{deviceId: {exact: [\"undefined\"]}}, {echoCancellation: {exact: true}}, {googEchoCancellation: {exact: true}}, {autoGainControl: {exact: true}}, {noiseSuppression: {exact: true}}, {googHighpassFilter: {exact: true}}, {googExperimentalNoiseSuppression: {exact: true}}, {googExperimentalEchoCancellation: {exact: true}}, {googExperimentalAutoGainControl: {exact: true}}]}",
+   "origin": "https://meet.jit.si",
+   "pid": 9303,
+   "rid": 6,
+   "timestamp": 1620008808704.329,
+   "video": "{width: {min: 320, max: 1280, ideal: 1280}, height: {min: 180, max: 720, ideal: 720}, facingMode: {ideal: [\"user\"]}}"
+  },
+  {
+   "audio": "{advanced: [{deviceId: {exact: [\"default\"]}}, {echoCancellation: {exact: true}}, {googEchoCancellation: {exact: true}}, {autoGainControl: {exact: true}}, {noiseSuppression: {exact: true}}, {googHighpassFilter: {exact: true}}, {googExperimentalNoiseSuppression: {exact: true}}, {googExperimentalEchoCancellation: {exact: true}}, {googExperimentalAutoGainControl: {exact: true}}]}",
+   "origin": "https://meet.jit.si",
+   "pid": 9303,
+   "rid": 6,
+   "timestamp": 1620008906240.959
+  }
+ ],
+ "PeerConnections": {
+  "9303-1": {
+   "constraints": "{advanced: [{googScreencastMinBitrate: {exact: 100}}, {googCpuOveruseDetection: {exact: true}}]}",
+   "rtcConfiguration": "{ iceServers: [turns:meet-jit-si-turnrelay.jitsi.net:443?transport=tcp], iceTransportPolicy: all, bundlePolicy: max-bundle, rtcpMuxPolicy: require, iceCandidatePoolSize: 0, sdpSemantics: \"plan-b\" }",
+   "stats": {
+    "googLibjingleSession_7413992349390123475-googInitiator": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+    },
+    "bweforvideo-googActualEncBitrate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "bweforvideo-googAvailableReceiveBandwidth": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "bweforvideo-googAvailableSendBandwidth": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "bweforvideo-googBucketDelay": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "bweforvideo-googRetransmitBitrate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "bweforvideo-googTargetEncBitrate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "bweforvideo-googTargetEncBitrateCorrected": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "bweforvideo-googTransmitBitrate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "googTrack_b7024cc7-05bb-409a-aad4-9f4c626e6c53-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\"]"
+    },
+    "googTrack_07ff4cc3-5a8e-4c8a-9125-48ada03244b0-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\"]"
+    },
+    "googTrack_mixedlabelaudio0-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\"]"
+    },
+    "googTrack_mixedlabelvideo0-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\"]"
+    },
+    "googTrack_44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\"]"
+    },
+    "googTrack_69904322-415b-42f8-a971-cdd89a3aba96-2-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\"]"
+    },
+    "googTrack_5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\"]"
+    },
+    "googTrack_090fb3a3-0c8d-4658-a88c-ee726c4e3938-1-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\"]"
+    },
+    "googTrack_894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\"]"
+    },
+    "googTrack_eb10dadb-d730-4f97-840d-c676cbce8853-1-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\"]"
+    },
+    "googTrack_5f2f33ae-b142-4d91-ab61-e568751e8548-2-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\"]"
+    },
+    "googTrack_ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\"]"
+    },
+    "googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D-googDerBase64": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"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\"]"
+    },
+    "googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D-googFingerprint": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\"]"
+    },
+    "googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D-googFingerprintAlgorithm": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\"]"
+    },
+    "Channel-audio-1-googComponent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]"
+    },
+    "Channel-audio-1-localCertificateId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\",\"googCertificate_84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\"]"
+    },
+    "ssrc_860565381_recv-bytesReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-bitsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_860565381_recv-mediaType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "ssrc_860565381_recv-packetsLost": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-packetsReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-packetsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_860565381_recv-ssrc": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\",\"860565381\"]"
+    },
+    "ssrc_860565381_recv-totalAudioEnergy": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-totalSamplesDuration": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-transportId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\"]"
+    },
+    "ssrc_860565381_recv-googAccelerateRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googCaptureStartNtpTimeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googCodecName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]"
+    },
+    "ssrc_860565381_recv-googCurrentDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googDecodingCNG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googDecodingCTN": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googDecodingCTSG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googDecodingMuted": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googDecodingNormal": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googDecodingPLC": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googDecodingPLCCNG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googJitterReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googPreemptiveExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googPreferredJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googSecondaryDecodedRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googSecondaryDiscardedRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googSpeechExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_860565381_recv-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\",\"090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\"]"
+    },
+    "ssrc_2457013893_recv-bytesReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-bitsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_2457013893_recv-mediaType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "ssrc_2457013893_recv-packetsLost": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-packetsReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-packetsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_2457013893_recv-ssrc": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\",\"2457013893\"]"
+    },
+    "ssrc_2457013893_recv-totalAudioEnergy": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-totalSamplesDuration": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-transportId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\"]"
+    },
+    "ssrc_2457013893_recv-googAccelerateRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googCaptureStartNtpTimeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googCodecName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]"
+    },
+    "ssrc_2457013893_recv-googCurrentDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googDecodingCNG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googDecodingCTN": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googDecodingCTSG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googDecodingMuted": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googDecodingNormal": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googDecodingPLC": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googDecodingPLCCNG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googJitterReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googPreemptiveExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googPreferredJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googSecondaryDecodedRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googSecondaryDiscardedRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googSpeechExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2457013893_recv-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\",\"69904322-415b-42f8-a971-cdd89a3aba96-2\"]"
+    },
+    "ssrc_2899216923_recv-bytesReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-bitsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_2899216923_recv-mediaType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "ssrc_2899216923_recv-packetsLost": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-packetsReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-packetsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_2899216923_recv-ssrc": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\",\"2899216923\"]"
+    },
+    "ssrc_2899216923_recv-totalAudioEnergy": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-totalSamplesDuration": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-transportId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\"]"
+    },
+    "ssrc_2899216923_recv-googAccelerateRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googCaptureStartNtpTimeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googCodecName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]"
+    },
+    "ssrc_2899216923_recv-googCurrentDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googDecodingCNG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googDecodingCTN": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googDecodingCTSG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googDecodingMuted": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googDecodingNormal": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googDecodingPLC": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googDecodingPLCCNG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googJitterReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googPreemptiveExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googPreferredJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googSecondaryDecodedRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googSecondaryDiscardedRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googSpeechExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_2899216923_recv-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\",\"44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\"]"
+    },
+    "ssrc_3788638714_recv-bytesReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-bitsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_3788638714_recv-mediaType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "ssrc_3788638714_recv-packetsLost": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-packetsReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-packetsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_3788638714_recv-ssrc": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\",\"3788638714\"]"
+    },
+    "ssrc_3788638714_recv-totalAudioEnergy": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-totalSamplesDuration": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-transportId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\"]"
+    },
+    "ssrc_3788638714_recv-googAccelerateRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googCaptureStartNtpTimeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googCodecName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]"
+    },
+    "ssrc_3788638714_recv-googCurrentDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googDecodingCNG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googDecodingCTN": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googDecodingCTSG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googDecodingMuted": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googDecodingNormal": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googDecodingPLC": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googDecodingPLCCNG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googJitterReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googPreemptiveExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googPreferredJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googSecondaryDecodedRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googSecondaryDiscardedRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googSpeechExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3788638714_recv-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\",\"5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\"]"
+    },
+    "ssrc_3860286028_recv-bytesReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-bitsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_3860286028_recv-mediaType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "ssrc_3860286028_recv-packetsLost": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-packetsReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-packetsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_3860286028_recv-ssrc": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\",\"3860286028\"]"
+    },
+    "ssrc_3860286028_recv-totalAudioEnergy": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-totalSamplesDuration": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-transportId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\"]"
+    },
+    "ssrc_3860286028_recv-googAccelerateRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googCaptureStartNtpTimeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googCodecName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]"
+    },
+    "ssrc_3860286028_recv-googCurrentDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googDecodingCNG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googDecodingCTN": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googDecodingCTSG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googDecodingMuted": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googDecodingNormal": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googDecodingPLC": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googDecodingPLCCNG": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googJitterReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googPreemptiveExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googPreferredJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googSecondaryDecodedRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googSecondaryDiscardedRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googSpeechExpandRate": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3860286028_recv-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\",\"mixedlabelaudio0\"]"
+    },
+    "ssrc_120178116_recv-bytesReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-bitsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_120178116_recv-codecImplementationName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "ssrc_120178116_recv-framesDecoded": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-mediaType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\"]"
+    },
+    "ssrc_120178116_recv-packetsLost": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-packetsReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-packetsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_120178116_recv-ssrc": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\",\"120178116\"]"
+    },
+    "ssrc_120178116_recv-transportId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\"]"
+    },
+    "ssrc_120178116_recv-googCaptureStartNtpTimeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googCodecName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]"
+    },
+    "ssrc_120178116_recv-googContentType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\"]"
+    },
+    "ssrc_120178116_recv-googCurrentDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googDecodeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googFirsSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googFrameHeightReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googFrameRateDecoded": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googFrameRateOutput": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googFrameRateReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googFrameWidthReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googInterframeDelayMax": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]"
+    },
+    "ssrc_120178116_recv-googJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googMaxDecodeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googMinPlayoutDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googNacksSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googPlisSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googRenderDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10]"
+    },
+    "ssrc_120178116_recv-googTargetDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_120178116_recv-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\",\"mixedlabelvideo0\"]"
+    },
+    "ssrc_1029245264_recv-bytesReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-bitsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_1029245264_recv-codecImplementationName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "ssrc_1029245264_recv-framesDecoded": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-mediaType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\"]"
+    },
+    "ssrc_1029245264_recv-packetsLost": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-packetsReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-packetsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_1029245264_recv-ssrc": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\",\"1029245264\"]"
+    },
+    "ssrc_1029245264_recv-transportId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\"]"
+    },
+    "ssrc_1029245264_recv-googCaptureStartNtpTimeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googCodecName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]"
+    },
+    "ssrc_1029245264_recv-googContentType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\"]"
+    },
+    "ssrc_1029245264_recv-googCurrentDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googDecodeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googFirsSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googFrameHeightReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googFrameRateDecoded": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googFrameRateOutput": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googFrameRateReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googFrameWidthReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googInterframeDelayMax": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]"
+    },
+    "ssrc_1029245264_recv-googJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googMaxDecodeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googMinPlayoutDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googNacksSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googPlisSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googRenderDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10]"
+    },
+    "ssrc_1029245264_recv-googTargetDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1029245264_recv-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\",\"894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\"]"
+    },
+    "ssrc_1252831778_recv-bytesReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-bitsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_1252831778_recv-codecImplementationName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "ssrc_1252831778_recv-framesDecoded": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-mediaType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\"]"
+    },
+    "ssrc_1252831778_recv-packetsLost": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-packetsReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-packetsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_1252831778_recv-ssrc": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\",\"1252831778\"]"
+    },
+    "ssrc_1252831778_recv-transportId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\"]"
+    },
+    "ssrc_1252831778_recv-googCaptureStartNtpTimeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googCodecName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]"
+    },
+    "ssrc_1252831778_recv-googContentType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\"]"
+    },
+    "ssrc_1252831778_recv-googCurrentDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googDecodeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googFirsSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googFrameHeightReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googFrameRateDecoded": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googFrameRateOutput": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googFrameRateReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googFrameWidthReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googInterframeDelayMax": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]"
+    },
+    "ssrc_1252831778_recv-googJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googMaxDecodeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googMinPlayoutDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googNacksSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googPlisSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googRenderDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10]"
+    },
+    "ssrc_1252831778_recv-googTargetDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1252831778_recv-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\",\"eb10dadb-d730-4f97-840d-c676cbce8853-1\"]"
+    },
+    "ssrc_1629541082_recv-bytesReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-bitsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_1629541082_recv-codecImplementationName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "ssrc_1629541082_recv-framesDecoded": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-mediaType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\"]"
+    },
+    "ssrc_1629541082_recv-packetsLost": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-packetsReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-packetsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_1629541082_recv-ssrc": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\",\"1629541082\"]"
+    },
+    "ssrc_1629541082_recv-transportId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\"]"
+    },
+    "ssrc_1629541082_recv-googCaptureStartNtpTimeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googCodecName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]"
+    },
+    "ssrc_1629541082_recv-googContentType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\"]"
+    },
+    "ssrc_1629541082_recv-googCurrentDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googDecodeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googFirsSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googFrameHeightReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googFrameRateDecoded": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googFrameRateOutput": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googFrameRateReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googFrameWidthReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googInterframeDelayMax": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]"
+    },
+    "ssrc_1629541082_recv-googJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googMaxDecodeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googMinPlayoutDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googNacksSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googPlisSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googRenderDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10]"
+    },
+    "ssrc_1629541082_recv-googTargetDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1629541082_recv-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\",\"5f2f33ae-b142-4d91-ab61-e568751e8548-2\"]"
+    },
+    "ssrc_1955965145_recv-bytesReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-bitsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_1955965145_recv-codecImplementationName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "ssrc_1955965145_recv-framesDecoded": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-mediaType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\"]"
+    },
+    "ssrc_1955965145_recv-packetsLost": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-packetsReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-packetsReceivedPerSecond": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,null,null,0,0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_1955965145_recv-ssrc": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\",\"1955965145\"]"
+    },
+    "ssrc_1955965145_recv-transportId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\"]"
+    },
+    "ssrc_1955965145_recv-googCaptureStartNtpTimeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googCodecName": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]"
+    },
+    "ssrc_1955965145_recv-googContentType": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\"]"
+    },
+    "ssrc_1955965145_recv-googCurrentDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googDecodeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googFirsSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googFrameHeightReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googFrameRateDecoded": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googFrameRateOutput": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googFrameRateReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googFrameWidthReceived": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googInterframeDelayMax": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]"
+    },
+    "ssrc_1955965145_recv-googJitterBufferMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googMaxDecodeMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googMinPlayoutDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googNacksSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googPlisSent": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googRenderDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10]"
+    },
+    "ssrc_1955965145_recv-googTargetDelayMs": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1955965145_recv-googTrackId": {
+     "startTime": "2021-05-03T02:28:39.885Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\",\"ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\"]"
+    },
+    "ssrc_1685641003_send-audioInputLevel": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[6484,6484,6484,6484,6484,6434,6434,6434,6434,6434,6434,6434,6434,6434,6434,6434,6434]"
+    },
+    "ssrc_1685641003_send-bytesSent": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1685641003_send-bitsSentPerSecond": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_1685641003_send-mediaType": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "ssrc_1685641003_send-packetsSent": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1685641003_send-packetsSentPerSecond": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_1685641003_send-ssrc": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\",\"1685641003\"]"
+    },
+    "ssrc_1685641003_send-totalAudioEnergy": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0.7007437348365784,0.7007437348365784,0.7007437348365784,0.7007437348365784,0.7007437348365784,2.6496243476867676,2.6496243476867676,2.6496243476867676,2.6496243476867676,2.6496243476867676,2.6496243476867676,2.6496243476867676,2.6496243476867676,2.6496243476867676,2.6496243476867676,2.6496243476867676,2.6496243476867676]"
+    },
+    "ssrc_1685641003_send-totalSamplesDuration": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[2.4800000190734863,2.4800000190734863,2.4800000190734863,2.4800000190734863,2.4800000190734863,8.800000190734863,8.800000190734863,8.800000190734863,8.800000190734863,8.800000190734863,8.800000190734863,8.800000190734863,8.800000190734863,8.800000190734863,8.800000190734863,8.800000190734863,8.800000190734863]"
+    },
+    "ssrc_1685641003_send-transportId": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\"]"
+    },
+    "ssrc_1685641003_send-googCodecName": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"opus\",\"opus\",\"opus\",\"opus\",\"opus\",\"opus\",\"opus\",\"opus\",\"opus\",\"opus\",\"opus\",\"opus\",\"opus\",\"opus\",\"opus\",\"opus\",\"opus\"]"
+    },
+    "ssrc_1685641003_send-googEchoCancellationReturnLoss": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[-30,-30,-30,-30,-30,-30,-30,-30,-30,-30,-30,-30,-30,-30,-30,-30,-30]"
+    },
+    "ssrc_1685641003_send-googEchoCancellationReturnLossEnhancement": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_1685641003_send-googTrackId": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\",\"b7024cc7-05bb-409a-aad4-9f4c626e6c53\"]"
+    },
+    "ssrc_1685641003_send-googTypingNoiseState": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+    },
+    "ssrc_3892995664_send-bytesSent": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-bitsSentPerSecond": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_3892995664_send-codecImplementationName": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "ssrc_3892995664_send-framesEncoded": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-mediaType": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\",\"video\"]"
+    },
+    "ssrc_3892995664_send-packetsLost": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-packetsSent": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-packetsSentPerSecond": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null]"
+    },
+    "ssrc_3892995664_send-ssrc": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\",\"3892995664\"]"
+    },
+    "ssrc_3892995664_send-transportId": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\",\"Channel-audio-1\"]"
+    },
+    "ssrc_3892995664_send-googAdaptationChanges": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-googAvgEncodeMs": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-googBandwidthLimitedResolution": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+    },
+    "ssrc_3892995664_send-googCodecName": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\",\"VP8\"]"
+    },
+    "ssrc_3892995664_send-googContentType": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\",\"realtime\"]"
+    },
+    "ssrc_3892995664_send-googCpuLimitedResolution": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+    },
+    "ssrc_3892995664_send-googEncodeUsagePercent": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-googFirsReceived": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-googFrameHeightInput": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[720,720,720,720,720,720,720,720,720,720,720,720,720,720,720,720,720]"
+    },
+    "ssrc_3892995664_send-googFrameHeightSent": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-googFrameRateInput": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]"
+    },
+    "ssrc_3892995664_send-googFrameRateSent": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-googFrameWidthInput": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[1280,1280,1280,1280,1280,1280,1280,1280,1280,1280,1280,1280,1280,1280,1280,1280,1280]"
+    },
+    "ssrc_3892995664_send-googFrameWidthSent": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-googHasEnteredLowResolution": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+    },
+    "ssrc_3892995664_send-hugeFramesSent": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-googNacksReceived": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-googPlisReceived": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-googRtt": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "ssrc_3892995664_send-googTrackId": {
+     "startTime": "2021-05-03T02:28:59.744Z",
+     "endTime": "2021-05-03T02:29:12.145Z",
+     "values": "[\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\",\"07ff4cc3-5a8e-4c8a-9125-48ada03244b0\"]"
+    }
+   },
+   "updateLog": [
+    {
+     "time": "5/3/2021, 2:28:31 AM",
+     "type": "senderAdded",
+     "value": "Caused by: addTrack\n\ngetSenders()[0]:{\n  track:'b7024cc7-05bb-409a-aad4-9f4c626e6c53',\n  streams:['17fee1d3-fbef-4ae8-be8c-00368213f373'],\n}"
+    },
+    {
+     "time": "5/3/2021, 2:28:32 AM",
+     "type": "senderAdded",
+     "value": "Caused by: addTrack\n\ngetSenders()[1]:{\n  track:'07ff4cc3-5a8e-4c8a-9125-48ada03244b0',\n  streams:['f72b86b0-36a6-4694-bebf-3b6f3a943890'],\n}"
+    },
+    {
+     "time": "5/3/2021, 2:28:34 AM",
+     "type": "setRemoteDescription",
+     "value": "type: offer, sdp: v=0\r\no=- 1620008912139 2 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=group:BUNDLE audio video\r\nm=audio 1 RTP/SAVPF 111 103 104 126\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:111 opus/48000/2\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:126 telephone-event/8000\r\na=fmtp:111 minptime=10; useinbandfec=1\r\na=rtcp:1 IN IP4 0.0.0.0\r\na=rtcp-fb:111 transport-cc\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=setup:actpass\r\na=mid:audio\r\na=sendrecv\r\na=ice-ufrag:n3941f4o0r6d5\r\na=ice-pwd:34bqhi0nfmjgucbig7j4c4s9ju\r\na=fingerprint:sha-256 49:8A:B0:9F:F1:01:6A:76:D2:A8:96:E6:01:AD:E7:4A:C6:3C:CD:95:5A:79:DA:DE:FC:84:8E:F2:9C:46:3F:C7\r\na=candidate:1 1 udp 2130706431 10.44.120.106 10000 typ host generation 0\r\na=candidate:2 1 udp 1694498815 140.238.255.142 10000 typ srflx raddr 10.44.120.106 rport 10000 generation 0\r\na=ssrc:3860286028 cname:mixed\r\na=ssrc:3860286028 label:mixedlabelaudio0\r\na=ssrc:3860286028 msid:mixedmslabel mixedlabelaudio0\r\na=ssrc:3860286028 mslabel:mixedmslabel\r\na=ssrc:2899216923 cname:BD1KgwyouLcDDwV8-1\r\na=ssrc:2899216923 msid:d5f6d889-6689-4185-bc96-b2db996d4acc-1 44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1\r\na=ssrc:2457013893 cname:aKMKzSoxjKZpOda-2\r\na=ssrc:2457013893 msid:88874001-d341-48bb-b2dd-5a6cb56b769e-2 69904322-415b-42f8-a971-cdd89a3aba96-2\r\na=ssrc:3788638714 cname:IGOMb2GoJgP4gIx-1\r\na=ssrc:3788638714 msid:4dba7d7a-289b-4f27-a1cf-efacff9926eb-1 5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1\r\na=ssrc:860565381 cname:cHlSdna9hcj0RyX7-1\r\na=ssrc:860565381 msid:b32f19a5-b630-4060-abad-d03fd382f27d-1 090fb3a3-0c8d-4658-a88c-ee726c4e3938-1\r\na=rtcp-mux\r\nm=video 1 RTP/SAVPF 100 96\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:100 VP8/90000\r\na=rtpmap:96 rtx/90000\r\na=fmtp:100 x-google-start-bitrate=800\r\na=fmtp:96 apt=100\r\na=rtcp:1 IN IP4 0.0.0.0\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=setup:actpass\r\na=mid:video\r\na=sendrecv\r\na=ice-ufrag:n3941f4o0r6d5\r\na=ice-pwd:34bqhi0nfmjgucbig7j4c4s9ju\r\na=fingerprint:sha-256 49:8A:B0:9F:F1:01:6A:76:D2:A8:96:E6:01:AD:E7:4A:C6:3C:CD:95:5A:79:DA:DE:FC:84:8E:F2:9C:46:3F:C7\r\na=candidate:1 1 udp 2130706431 10.44.120.106 10000 typ host generation 0\r\na=candidate:2 1 udp 1694498815 140.238.255.142 10000 typ srflx raddr 10.44.120.106 rport 10000 generation 0\r\na=ssrc:1029245264 cname:IGOMb2GoJgP4gIx-1\r\na=ssrc:1029245264 msid:c62006af-3f7a-4678-9038-df580bb6b744-1 894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\r\na=ssrc:1252831778 cname:BD1KgwyouLcDDwV8-1\r\na=ssrc:1252831778 msid:b07108e3-194d-4fd9-b3ee-36c7d14c3bce-1 eb10dadb-d730-4f97-840d-c676cbce8853-1\r\na=ssrc:1629541082 cname:aKMKzSoxjKZpOda-2\r\na=ssrc:1629541082 msid:9d93c16f-5279-453c-9206-27d4cc6ec44f-2 5f2f33ae-b142-4d91-ab61-e568751e8548-2\r\na=ssrc:1955965145 cname:cHlSdna9hcj0RyX7-1\r\na=ssrc:1955965145 msid:d9c4aa04-22b8-49cb-ba8d-1e1572d1fcbf-1 ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\r\na=ssrc:120178116 cname:mixed\r\na=ssrc:120178116 label:mixedlabelvideo0\r\na=ssrc:120178116 msid:mixedmslabel mixedlabelvideo0\r\na=ssrc:120178116 mslabel:mixedmslabel\r\na=ssrc:398743565 cname:cHlSdna9hcj0RyX7-1\r\na=ssrc:398743565 msid:d9c4aa04-22b8-49cb-ba8d-1e1572d1fcbf-1 ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1\r\na=ssrc:2495545153 cname:aKMKzSoxjKZpOda-2\r\na=ssrc:2495545153 msid:9d93c16f-5279-453c-9206-27d4cc6ec44f-2 5f2f33ae-b142-4d91-ab61-e568751e8548-2\r\na=ssrc:2509878586 cname:BD1KgwyouLcDDwV8-1\r\na=ssrc:2509878586 msid:b07108e3-194d-4fd9-b3ee-36c7d14c3bce-1 eb10dadb-d730-4f97-840d-c676cbce8853-1\r\na=ssrc:4002127694 cname:IGOMb2GoJgP4gIx-1\r\na=ssrc:4002127694 msid:c62006af-3f7a-4678-9038-df580bb6b744-1 894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1\r\na=ssrc-group:FID 1252831778 2509878586\r\na=ssrc-group:FID 1629541082 2495545153\r\na=ssrc-group:FID 1029245264 4002127694\r\na=ssrc-group:FID 1955965145 398743565\r\na=rtcp-mux\r\na=x-google-flag:conference\r\n"
+    },
+    {
+     "time": "5/3/2021, 2:28:39 AM",
+     "type": "onRenegotiationNeeded",
+     "value": ""
+    },
+    {
+     "time": "5/3/2021, 2:28:40 AM",
+     "type": "onRenegotiationNeeded",
+     "value": ""
+    },
+    {
+     "time": "5/3/2021, 2:28:42 AM",
+     "type": "setRemoteDescriptionOnSuccess",
+     "value": ""
+    },
+    {
+     "time": "5/3/2021, 2:28:42 AM",
+     "type": "signalingStateChange",
+     "value": "SignalingStateHaveRemoteOffer"
+    },
+    {
+     "time": "5/3/2021, 2:28:42 AM",
+     "type": "receiverAdded",
+     "value": "Caused by: setRemoteDescription\n\ngetReceivers()[0]:{\n  track:'mixedlabelaudio0',\n  streams:['mixedmslabel'],\n}"
+    },
+    {
+     "time": "5/3/2021, 2:28:42 AM",
+     "type": "receiverAdded",
+     "value": "Caused by: setRemoteDescription\n\ngetReceivers()[1]:{\n  track:'44d518c0-986f-4fdd-9738-3e1f1cf9b2ff-1',\n  streams:['d5f6d889-6689-4185-bc96-b2db996d4acc-1'],\n}"
+    },
+    {
+     "time": "5/3/2021, 2:28:42 AM",
+     "type": "receiverAdded",
+     "value": "Caused by: setRemoteDescription\n\ngetReceivers()[2]:{\n  track:'69904322-415b-42f8-a971-cdd89a3aba96-2',\n  streams:['88874001-d341-48bb-b2dd-5a6cb56b769e-2'],\n}"
+    },
+    {
+     "time": "5/3/2021, 2:28:42 AM",
+     "type": "receiverAdded",
+     "value": "Caused by: setRemoteDescription\n\ngetReceivers()[3]:{\n  track:'5ac48c76-5281-4d6a-b897-1fe4a3e52b00-1',\n  streams:['4dba7d7a-289b-4f27-a1cf-efacff9926eb-1'],\n}"
+    },
+    {
+     "time": "5/3/2021, 2:28:42 AM",
+     "type": "receiverAdded",
+     "value": "Caused by: setRemoteDescription\n\ngetReceivers()[4]:{\n  track:'090fb3a3-0c8d-4658-a88c-ee726c4e3938-1',\n  streams:['b32f19a5-b630-4060-abad-d03fd382f27d-1'],\n}"
+    },
+    {
+     "time": "5/3/2021, 2:28:42 AM",
+     "type": "receiverAdded",
+     "value": "Caused by: setRemoteDescription\n\ngetReceivers()[5]:{\n  track:'894da332-1a0a-4b0d-a6d3-92e6799cbc4f-1',\n  streams:['c62006af-3f7a-4678-9038-df580bb6b744-1'],\n}"
+    },
+    {
+     "time": "5/3/2021, 2:28:42 AM",
+     "type": "receiverAdded",
+     "value": "Caused by: setRemoteDescription\n\ngetReceivers()[6]:{\n  track:'eb10dadb-d730-4f97-840d-c676cbce8853-1',\n  streams:['b07108e3-194d-4fd9-b3ee-36c7d14c3bce-1'],\n}"
+    },
+    {
+     "time": "5/3/2021, 2:28:42 AM",
+     "type": "receiverAdded",
+     "value": "Caused by: setRemoteDescription\n\ngetReceivers()[7]:{\n  track:'5f2f33ae-b142-4d91-ab61-e568751e8548-2',\n  streams:['9d93c16f-5279-453c-9206-27d4cc6ec44f-2'],\n}"
+    },
+    {
+     "time": "5/3/2021, 2:28:42 AM",
+     "type": "receiverAdded",
+     "value": "Caused by: setRemoteDescription\n\ngetReceivers()[8]:{\n  track:'ca51e30e-778e-4fb3-ba5a-86be0a82a5b2-1',\n  streams:['d9c4aa04-22b8-49cb-ba8d-1e1572d1fcbf-1'],\n}"
+    },
+    {
+     "time": "5/3/2021, 2:28:42 AM",
+     "type": "receiverAdded",
+     "value": "Caused by: setRemoteDescription\n\ngetReceivers()[9]:{\n  track:'mixedlabelvideo0',\n  streams:['mixedmslabel'],\n}"
+    },
+    {
+     "time": "5/3/2021, 2:28:45 AM",
+     "type": "createAnswer",
+     "value": "options: {, voiceActivityDetection: true}"
+    },
+    {
+     "time": "5/3/2021, 2:28:51 AM",
+     "type": "createAnswerOnSuccess",
+     "value": "type: answer, sdp: v=0\r\no=- 7413992349390123475 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE audio video\r\na=msid-semantic: WMS 17fee1d3-fbef-4ae8-be8c-00368213f373 f72b86b0-36a6-4694-bebf-3b6f3a943890\r\nm=audio 9 RTP/SAVPF 111 103 104 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:5Pzn\r\na=ice-pwd:JuIFAiGB/hvQngnRm1tRTzFX\r\na=ice-options:trickle\r\na=fingerprint:sha-256 84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\r\na=setup:active\r\na=mid:audio\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=sendrecv\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:126 telephone-event/8000\r\na=ssrc:1685641003 cname:tzUnH/bOUWH4nYix\r\na=ssrc:1685641003 msid:17fee1d3-fbef-4ae8-be8c-00368213f373 b7024cc7-05bb-409a-aad4-9f4c626e6c53\r\na=ssrc:1685641003 mslabel:17fee1d3-fbef-4ae8-be8c-00368213f373\r\na=ssrc:1685641003 label:b7024cc7-05bb-409a-aad4-9f4c626e6c53\r\nm=video 9 RTP/SAVPF 100 96\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:5Pzn\r\na=ice-pwd:JuIFAiGB/hvQngnRm1tRTzFX\r\na=ice-options:trickle\r\na=fingerprint:sha-256 84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\r\na=setup:active\r\na=mid:video\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=sendrecv\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtpmap:96 rtx/90000\r\na=fmtp:96 apt=100\r\na=ssrc-group:FID 3892995664 3716381971\r\na=ssrc:3892995664 cname:tzUnH/bOUWH4nYix\r\na=ssrc:3892995664 msid:f72b86b0-36a6-4694-bebf-3b6f3a943890 07ff4cc3-5a8e-4c8a-9125-48ada03244b0\r\na=ssrc:3892995664 mslabel:f72b86b0-36a6-4694-bebf-3b6f3a943890\r\na=ssrc:3892995664 label:07ff4cc3-5a8e-4c8a-9125-48ada03244b0\r\na=ssrc:3716381971 cname:tzUnH/bOUWH4nYix\r\na=ssrc:3716381971 msid:f72b86b0-36a6-4694-bebf-3b6f3a943890 07ff4cc3-5a8e-4c8a-9125-48ada03244b0\r\na=ssrc:3716381971 mslabel:f72b86b0-36a6-4694-bebf-3b6f3a943890\r\na=ssrc:3716381971 label:07ff4cc3-5a8e-4c8a-9125-48ada03244b0\r\n"
+    },
+    {
+     "time": "5/3/2021, 2:28:52 AM",
+     "type": "setLocalDescription",
+     "value": "type: answer, sdp: v=0\r\no=- 7413992349390123475 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=msid-semantic: WMS 17fee1d3-fbef-4ae8-be8c-00368213f373\r\na=group:BUNDLE audio video\r\nm=audio 9 RTP/SAVPF 111 103 104 126\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:111 opus/48000/2\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:126 telephone-event/8000\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtcp-fb:111 transport-cc\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=setup:active\r\na=mid:audio\r\na=sendrecv\r\na=ice-ufrag:5Pzn\r\na=ice-pwd:JuIFAiGB/hvQngnRm1tRTzFX\r\na=fingerprint:sha-256 84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\r\na=ice-options:trickle\r\na=ssrc:1685641003 cname:tzUnH/bOUWH4nYix\r\na=ssrc:1685641003 msid:17fee1d3-fbef-4ae8-be8c-00368213f373 b7024cc7-05bb-409a-aad4-9f4c626e6c53\r\na=ssrc:1685641003 mslabel:17fee1d3-fbef-4ae8-be8c-00368213f373\r\na=ssrc:1685641003 label:b7024cc7-05bb-409a-aad4-9f4c626e6c53\r\na=rtcp-mux\r\nm=video 9 RTP/SAVPF 100 96\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:100 VP8/90000\r\na=rtpmap:96 rtx/90000\r\na=fmtp:96 apt=100\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=setup:active\r\na=mid:video\r\na=sendrecv\r\na=ice-ufrag:5Pzn\r\na=ice-pwd:JuIFAiGB/hvQngnRm1tRTzFX\r\na=fingerprint:sha-256 84:87:EB:8B:EA:CE:D3:78:98:CD:BF:31:E1:4A:15:96:D4:EB:8F:77:2C:39:97:35:CE:12:19:ED:71:51:89:8D\r\na=ice-options:trickle\r\na=ssrc:3892995664 cname:tzUnH/bOUWH4nYix\r\na=ssrc:3892995664 msid:f72b86b0-36a6-4694-bebf-3b6f3a943890 07ff4cc3-5a8e-4c8a-9125-48ada03244b0\r\na=ssrc:3892995664 mslabel:f72b86b0-36a6-4694-bebf-3b6f3a943890\r\na=ssrc:3892995664 label:07ff4cc3-5a8e-4c8a-9125-48ada03244b0\r\na=ssrc:3716381971 cname:tzUnH/bOUWH4nYix\r\na=ssrc:3716381971 msid:f72b86b0-36a6-4694-bebf-3b6f3a943890 07ff4cc3-5a8e-4c8a-9125-48ada03244b0\r\na=ssrc:3716381971 mslabel:f72b86b0-36a6-4694-bebf-3b6f3a943890\r\na=ssrc:3716381971 label:07ff4cc3-5a8e-4c8a-9125-48ada03244b0\r\na=ssrc:3711310056 cname:tzUnH/bOUWH4nYix\r\na=ssrc:3711310056 msid:f72b86b0-36a6-4694-bebf-3b6f3a943890 07ff4cc3-5a8e-4c8a-9125-48ada03244b0\r\na=ssrc:2797652248 cname:tzUnH/bOUWH4nYix\r\na=ssrc:2797652248 msid:f72b86b0-36a6-4694-bebf-3b6f3a943890 07ff4cc3-5a8e-4c8a-9125-48ada03244b0\r\na=ssrc:3729823051 cname:tzUnH/bOUWH4nYix\r\na=ssrc:3729823051 msid:f72b86b0-36a6-4694-bebf-3b6f3a943890 07ff4cc3-5a8e-4c8a-9125-48ada03244b0\r\na=ssrc:3981787947 cname:tzUnH/bOUWH4nYix\r\na=ssrc:3981787947 msid:f72b86b0-36a6-4694-bebf-3b6f3a943890 07ff4cc3-5a8e-4c8a-9125-48ada03244b0\r\na=ssrc-group:FID 3892995664 3716381971\r\na=ssrc-group:FID 3711310056 3729823051\r\na=ssrc-group:FID 2797652248 3981787947\r\na=ssrc-group:SIM 3892995664 3711310056 2797652248\r\na=rtcp-mux\r\n"
+    },
+    {
+     "time": "5/3/2021, 2:29:00 AM",
+     "type": "setLocalDescriptionOnSuccess",
+     "value": ""
+    },
+    {
+     "time": "5/3/2021, 2:29:00 AM",
+     "type": "signalingStateChange",
+     "value": "SignalingStateStable"
+    },
+    {
+     "time": "5/3/2021, 2:29:05 AM",
+     "type": "iceGatheringStateChange",
+     "value": "gathering"
+    }
+   ],
+   "url": "https://meet.jit.si/WebRCTmeasurement"
+  }
+ },
+ "UserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/90.0.4430.93 Safari/537.36"
+}

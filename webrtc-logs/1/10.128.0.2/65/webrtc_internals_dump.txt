@@ -1,0 +1,14 @@
+{
+ "getUserMedia": [
+  {
+   "audio": "{advanced: [{deviceId: {exact: [\"undefined\"]}}, {echoCancellation: {exact: true}}, {googEchoCancellation: {exact: true}}, {autoGainControl: {exact: true}}, {noiseSuppression: {exact: true}}, {googHighpassFilter: {exact: true}}, {googExperimentalNoiseSuppression: {exact: true}}, {googExperimentalEchoCancellation: {exact: true}}, {googExperimentalAutoGainControl: {exact: true}}]}",
+   "origin": "https://meet.jit.si",
+   "pid": 24496,
+   "rid": 6,
+   "timestamp": 1619990242461.146,
+   "video": "{width: {min: 320, max: 1280, ideal: 1280}, height: {min: 180, max: 720, ideal: 720}, facingMode: {ideal: [\"user\"]}}"
+  }
+ ],
+ "PeerConnections": {},
+ "UserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/90.0.4430.93 Safari/537.36"
+}
