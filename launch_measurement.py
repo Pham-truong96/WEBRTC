@@ -136,7 +136,7 @@ def launch():
 
             # Sleep if selected
             print("Measurement launched, sleeping")
-            time.sleep(duration + 90) # add some extra time to ensure complete stop of measurement at client. DONT USE LESS!
+            time.sleep(duration + 100) # add some extra time to ensure complete stop of measurement at client. DONT USE LESS!
 
             # Reset
             # print("Resetting clients")

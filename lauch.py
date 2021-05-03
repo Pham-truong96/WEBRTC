@@ -88,7 +88,7 @@ class Lauch:
         # body.send_keys(Keys.CONTROL + '\t')
         self.driver.switch_to.window(self.driver.window_handles[0])
         
-        time.sleep(90)
+        time.sleep(120)
         self.driver.find_elements_by_tag_name('button')[0].click()
         time.sleep(10)
         print("save log")
