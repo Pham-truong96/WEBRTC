@@ -98,6 +98,7 @@ class Lauch:
         
 def main():
     net_moc = TCNetem()
+    net_moc.set_bandwidth_limit(bw)
     chrome = ChromeSetUp("eooe", "client1").get_browser()
     lauch = Lauch(chrome)
     lauch.dumps_log()
