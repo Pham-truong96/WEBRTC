@@ -505,13 +505,13 @@ class TCNetem:
     
     def set_bandwidth_limit(self, bandwidth):
         print("set bw")
-        os.system('sudo tc qdisc replace dev ens4 root netem rate {}mbit'.format(bandwidth))
-        os.system('sudo tc qdisc replace dev lo root netem rate {}mbit'.format(bandwidth))
+        os.system('echo \"1\" | sudo -S tc qdisc replace dev ens4 root netem rate {}mbit'.format(bandwidth))
+        os.system('echo \"1\" | sudo -S tc qdisc replace dev lo root netem rate {}mbit'.format(bandwidth))
 
     def loss_package(self, loss):
         print("loss:" + str(loss) + "%") 
-        os.system('sudo tc qdisc add dev ens4 root netem loss {}%'.format(loss))
-        os.system('sudo tc qdisc add dev lo root netem loss {}%'.format(loss))
+        os.system('echo \"1\" | sudo -S tc qdisc add dev ens4 root netem loss {}%'.format(loss))
+        os.system('echo \"1\" | sudo -S tc qdisc add dev lo root netem loss {}%'.format(loss))
         print("set limmit complete!")
 
     def reset(self,):
