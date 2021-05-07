@@ -4,13 +4,13 @@ from pathlib import Path
 __all__ = ["PATH_OUTPUT", "PATH_DATA_SINGLE", "PATH_DATA_COMPLETE", "PATH_OUTPUT_COMPLETE_MULTIPLE",
            "PATH_OUTPUT_COMPLETE", "PATH_OUTPUT_COMPLETE_CDF", "dict_lookup"]
 
-PATH_OUTPUT = Path("/home/christian/masterarbeit/messungen/webrtc_dump_plotter/plots/")
+PATH_OUTPUT = Path("/home/control/WEBRTC/webrtc_dump_plotter/logs/")
 PATH_OUTPUT_SINGLE = PATH_OUTPUT / "single_session/"
 PATH_OUTPUT_COMPLETE = PATH_OUTPUT / "complete_measurement/"
 PATH_OUTPUT_COMPLETE_CDF = PATH_OUTPUT_COMPLETE / "cdf/"
 PATH_OUTPUT_COMPLETE_MULTIPLE = PATH_OUTPUT_COMPLETE / "multiple/"
 
-PATH_DATA = Path("/home/christian/masterarbeit/messungen/webrtc_dump_plotter/logs/")
+PATH_DATA = Path("/home/control/WEBRTC/webrtc_dump_plotter/logs/")
 PATH_DATA_SINGLE = PATH_DATA / "single_session/"
 PATH_DATA_COMPLETE = PATH_DATA / "complete_measurement/"
 

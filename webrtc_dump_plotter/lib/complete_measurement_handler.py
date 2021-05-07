@@ -4,11 +4,11 @@ from time import time
 import numpy as np
 import scipy.stats
 
-from definitions import *
-from helpers import *
+from lib.definitions import *
+from lib.helpers import *
 
-import plot_multiple
-import plot_complete
+from lib import plot_multiple
+from lib import plot_complete
 
 list_ignored_keys = [
     "bweforvideo-googAvailableReceiveBandwidth",

@@ -2,9 +2,10 @@ import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
-from helpers import *
 
-from definitions import *
+from lib.helpers import *
+
+from lib.definitions import *
 
 matplotlib.rcParams['lines.linewidth'] = 3
 matplotlib.rcParams['font.size'] = 22

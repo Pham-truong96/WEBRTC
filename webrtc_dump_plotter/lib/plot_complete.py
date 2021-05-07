@@ -7,8 +7,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
-from definitions import *
-from helpers import *
+from lib.definitions import *
+from lib.helpers import *
 
 matplotlib.rcParams['lines.linewidth'] = 3
 matplotlib.rcParams['font.size'] = 22

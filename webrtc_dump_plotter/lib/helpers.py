@@ -3,7 +3,7 @@ from pathlib import Path
 import shutil
 import os
 
-from definitions import *
+from lib.definitions import *
 
 __all__ = ["get_max_value_list_of_lists", "helper_is_key_in_list", "helper_bit_to_kbit_list", "get_data_for_keys",
            "roundup", "move_data_to_parent_directory", "get_data_for_keys_3clients"]

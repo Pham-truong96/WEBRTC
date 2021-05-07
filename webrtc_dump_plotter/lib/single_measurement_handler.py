@@ -2,11 +2,11 @@ import shutil
 from pathlib import Path
 import os
 
-from helpers import *
-from definitions import *
+from lib.helpers import *
+from lib.definitions import *
 
 # Actual plotter
-import plot_single
+from lib import plot_single
 
 
 #

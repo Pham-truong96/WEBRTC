@@ -3,7 +3,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 
-from definitions import *
+from lib.definitions import *
 
 matplotlib.rcParams['lines.linewidth'] = 3
 matplotlib.rcParams['font.size'] = 22
