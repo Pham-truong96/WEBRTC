@@ -11,7 +11,7 @@ from internet_mock import *
 bw = sys.argv[1]
 i = sys.argv[2]
 
-LOG_SAVE_PATH = "/home/webrtc/apprtc-logs/{}/{}".format(bw, i)
+LOG_SAVE_PATH = r"C:\Users\kienbay\Desktop\logs\ww"
 
 class ChromeSetUp:
     def __init__(self, bandwidth, client):
@@ -24,7 +24,7 @@ class ChromeSetUp:
         opt.add_argument("--disable-infobars")
         opt.add_argument("start-maximized")
         opt.add_argument("--disable-extensions")
-        opt.add_argument('--headless') # not open windows
+        # opt.add_argument('--headless') # not open windows
         opt.add_argument('--disable-gpu')
         opt.add_argument("--allow-file-access-from-files") #allows getUserMedia() to be called from file:// URLs.
         opt.add_argument("disable-translate") #disables Translate into .. Popup
@@ -82,6 +82,9 @@ class Lauch:
         search_box.send_keys(Keys.ENTER)
         time.sleep(5)
         print("join room")
+        buttons = self.driver.find_elements_by_xpath("//*[contains(text(), 'hehe')]")
+        print(buttons)
+        buttons[0].click()
     
     def save_log(self,):
         # body = self.driver.find_element_by_tag_name("body")
@@ -98,7 +101,7 @@ class Lauch:
         
 def main():
     net_moc = TCNetem()
-    net_moc.set_bandwidth_limit(bw)
+    # net_moc.set_bandwidth_limit(bw)
     chrome = ChromeSetUp("eooe", "client1").get_browser()
     lauch = Lauch(chrome)
     lauch.dumps_log()
@@ -107,7 +110,7 @@ def main():
     time.sleep(2)
     lauch.save_log()
     chrome.quit()
-    net_moc.reset()
+    # net_moc.reset()
 if __name__  == "__main__":
     print("start")
     main()

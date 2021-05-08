@@ -12,7 +12,7 @@ ips = [
 ]
 
 # Measurement bandwidths
-bandwidths = [0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 1, 2, 3, 4, 5, 15, 30, 50]
+bandwidths = [0.45, 0.5, 1, 2, 3, 4, 5, 15, 30, 50]
 # bandwidths = [0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 1]
 
 # Iterations

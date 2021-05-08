@@ -200,7 +200,7 @@ def parse_measurement_3_clients(path):
 if __name__ == "__main__":
 
     ts_start = time.time()
-
+ 
     # Cleanup target directory
     if os.path.exists('parsed/'):
         shutil.rmtree('parsed/')

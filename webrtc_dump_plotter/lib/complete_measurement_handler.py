@@ -145,14 +145,14 @@ def plot_all_data_avg():
     str_base_path_output_complete_cdf = os.path.join(str_base_path_output_complete + "/cdf/")
     str_base_path_output_complete_multiple = os.path.join(str_base_path_output_complete + "/multiple/")
 
-    dict_p2pdata, list_bw = plot_data_avg('aggregated_data_P2P.csv')
+    # dict_p2pdata, list_bw = plot_data_avg('aggregated_data_P2P.csv')
 
-    move_data_to_parent_directory(PATH_OUTPUT_COMPLETE, "P2P")
+    # move_data_to_parent_directory(PATH_OUTPUT_COMPLETE, "P2P")
 
 
-    str_base_path_output_complete = str_base_path_orig + '/RELAY/'
-    str_base_path_output_complete_cdf = os.path.join(str_base_path_output_complete + "/cdf/")
-    str_base_path_output_complete_multiple = os.path.join(str_base_path_output_complete + "/multiple/")
+    # str_base_path_output_complete = str_base_path_orig + '/RELAY/'
+    # str_base_path_output_complete_cdf = os.path.join(str_base_path_output_complete + "/cdf/")
+    # str_base_path_output_complete_multiple = os.path.join(str_base_path_output_complete + "/multiple/")
 
     dict_relaydata, list_bw = plot_data_avg('aggregated_data_RELAY.csv')
 
@@ -160,7 +160,7 @@ def plot_all_data_avg():
 
     shutil.rmtree(str(PATH_OUTPUT_COMPLETE))
     os.makedirs(str(PATH_OUTPUT_COMPLETE))
-    os.rename(str(PATH_OUTPUT / "P2P"), str(PATH_OUTPUT_COMPLETE / "P2P"))
+    # os.rename(str(PATH_OUTPUT / "P2P"), str(PATH_OUTPUT_COMPLETE / "P2P"))
     os.rename(str(PATH_OUTPUT / "RELAY"), str(PATH_OUTPUT_COMPLETE / "RELAY"))
 
     #####
